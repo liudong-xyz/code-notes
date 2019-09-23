@@ -3,7 +3,7 @@ package xyz.liudong;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * Application
+ * Java - 判断字符串是否为空或者 null, 使用 apache-commons-lang3
  *
  * @author: liudong
  * @date: 2019/9/22

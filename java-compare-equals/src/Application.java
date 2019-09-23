@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 /**
- * Application
+ * Java - 比较和判断
  *
  * @author: liudong
  * @date: 2019/9/22
