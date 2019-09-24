@@ -39,9 +39,9 @@ public class Application {
         integerArrayListLambda.removeIf(integer -> integer == 1 || integer == 10);
 
         // 验证
-        System.out.println("for: " + Arrays.toString(integerArrayListFor.toArray()));
-        System.out.println("while: " + Arrays.toString(integerArrayListWhile.toArray()));
-        System.out.println("lambda: " + Arrays.toString(integerArrayListLambda.toArray()));
+        System.err.println("for: " + Arrays.toString(integerArrayListFor.toArray()));
+        System.err.println("while: " + Arrays.toString(integerArrayListWhile.toArray()));
+        System.err.println("lambda: " + Arrays.toString(integerArrayListLambda.toArray()));
 
     }
 

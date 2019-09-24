@@ -14,12 +14,12 @@ public class Application {
 
         // 传统做法, 将字符串前置, 对象后置(防止 NPE)
         if ("Good".equals(string)) {
-            System.out.println("true");
+            System.err.println("true");
         }
 
         // 使用 Java 7 新引入的方法
         if (Objects.equals("Good", string)) {
-            System.out.println("true");
+            System.err.println("true");
         }
 
     }
